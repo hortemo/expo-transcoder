@@ -1,0 +1,10 @@
+{
+  "extends": "expo/tsconfig.base",
+  "compilerOptions": {
+    "strict": true,
+    "paths": {
+      "@hortemo/expo-transcoder": ["../src/index"],
+      "@hortemo/expo-transcoder/*": ["../src/*"]
+    }
+  }
+}

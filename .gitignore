@@ -1,0 +1,14 @@
+# Dependencies & caches
+node_modules/
+
+# Build output
+build/
+
+# Expo e2e app caches and build artifacts
+e2e/android/
+e2e/.expo/
+e2e/.expo-shared/
+e2e/.maestro/
+
+# OS files
+.DS_Store
