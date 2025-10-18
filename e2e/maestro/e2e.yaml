@@ -1,0 +1,11 @@
+appId: com.hortemo.expotranscoder.e2e
+---
+- launchApp:
+    clearState: true
+- assertVisible:
+    text: "Expo Transcoder"
+- tapOn:
+    id: "testButton-clip"
+- assertVisible:
+    id: "testStatus-clip"
+    text: "done"

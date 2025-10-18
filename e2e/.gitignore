@@ -1,0 +1,15 @@
+# Node modules
+node_modules/
+
+# Expo artifacts
+.expo/
+.expo-shared/
+
+# Android build output
+android/
+
+# Maestro cache
+.maestro/
+
+# Misc
+*.log
